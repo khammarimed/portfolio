@@ -13,7 +13,7 @@ import { Suspense } from 'react'
 import Armature from '../components/Armature'
 import ArmatureVar from '../components/ArmatureVar'
 import { Menu, X, Mail, Phone, Linkedin, Github, Download } from 'lucide-react'
-import CompetencesSection from '@/components/CompetencesSection'
+import CompetencesSection from '../components/CompetencesSection'
 
 export default function Portfolio3D() {
   const [activeSection, setActiveSection] = useState('accueil')
